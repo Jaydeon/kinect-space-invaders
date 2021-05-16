@@ -1,0 +1,44 @@
+﻿<Window x:Class="GridSandbox.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Grid Sandbox" 
+        Height="720" Width="1800" 
+        Loaded="MainWindow_Loaded"
+        Closing="MainWindow_Closing">
+    <Window.Resources>
+        <SolidColorBrush x:Key="MediumGreyBrush" Color="#ff6e6e6e" />
+        <SolidColorBrush x:Key="KinectPurpleBrush" Color="#ff52318f" />
+        <SolidColorBrush x:Key="KinectBlueBrush" Color="#ff00BCF2" />
+    </Window.Resources>
+    <Grid x:Name="UIGrid"  Margin="0 0 0 0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="600" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="600" />
+            <ColumnDefinition Width="600" />
+            <ColumnDefinition Width="600" />
+        </Grid.ColumnDefinitions>
+        <Viewbox Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center">
+            <Image Source="{Binding ImageSource}" Stretch="UniformToFill" />
+        </Viewbox>
+
+        <StatusBar Grid.Row="1" HorizontalAlignment="Stretch" Name="statusBar" VerticalAlignment="Bottom" Background="White" Foreground="{StaticResource MediumGreyBrush}">
+            <StatusBarItem Content="{Binding StatusText}" />
+        </StatusBar>
+        <UniformGrid x:Name="uniGrid" Grid.Row="0" Grid.Column="1"></UniformGrid>
+        <UniformGrid x:Name="uniImgGrid" Grid.Row="0" Grid.Column="1"></UniformGrid>
+
+        <Canvas x:Name="canvasOver" Grid.Row="0" Grid.Column="1">
+            <Image x:Name="Hand" Canvas.Left="0" Canvas.Top="0" Grid.Column="1" Source="Images\openhand.png" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Width="50" />
+            <Image x:Name="Hand2" Canvas.Left="0" Canvas.Top="0" Grid.Column="1" Source="Images\openhand.png" Stretch="Fill" HorizontalAlignment="Left" VerticalAlignment="Top" Height="50" Width="50" Visibility="Hidden"/>
+        </Canvas>
+        <TextBlock x:Name="textHere" HorizontalAlignment="Left" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Height="46" Width="592" Grid.Column="1" Text="Tic-Tac-Toe Game (Use Left Hand)" FontSize="36" Margin="0,0,0,-5"/>
+        <TextBlock x:Name="instructionText" HorizontalAlignment="Left" Grid.Row="0" Grid.Column="2" TextWrapping="Wrap" VerticalAlignment="Top" Text="Set Instruction Text Here"  FontSize="48" Width="590"/>
+        <Button x:Name="Button1" Content="Button1" Grid.Column="2" HorizontalAlignment="Left" Margin="5,574,0,0" VerticalAlignment="Top" Width="144" Height="105" FontSize="20" Click="Button1_Click" Grid.RowSpan="3"/>
+        <Button x:Name="Button2" Content="Button2" Grid.Column="2" HorizontalAlignment="Left" Margin="225,574,0,0" VerticalAlignment="Top" Width="144" Height="105" FontSize="20" Click="Button2_Click" Grid.RowSpan="3"/>
+        <Button x:Name="Button3" Content="Button3" Grid.Column="2" HorizontalAlignment="Left" Margin="438,574,0,0" VerticalAlignment="Top" Width="144" Height="105" FontSize="20" Click="Button3_Click" Grid.RowSpan="3"/>
+    </Grid>
+</Window>

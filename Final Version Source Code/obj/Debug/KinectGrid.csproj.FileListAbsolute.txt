@@ -1,0 +1,24 @@
+C:\Users\Jonathan Wu\Documents\BodyBasics-WPF\obj\Debug\MainWindow.baml
+C:\Users\Jonathan Wu\Documents\BodyBasics-WPF\obj\Debug\MainWindow.g.cs
+C:\Users\Jonathan Wu\Documents\BodyBasics-WPF\obj\Debug\App.g.cs
+C:\Users\Jonathan Wu\Documents\BodyBasics-WPF\obj\Debug\KinectGrid_MarkupCompile.cache
+C:\Users\Jonathan Wu\Documents\BodyBasics-WPF\obj\Debug\KinectGrid.g.resources
+C:\Users\Jonathan Wu\Documents\BodyBasics-WPF\obj\Debug\KinectGrid.Properties.Resources.resources
+C:\Users\Jonathan Wu\Documents\BodyBasics-WPF\obj\Debug\KinectGrid.csproj.GenerateResource.Cache
+\\ad\eng\users\n\f\nfrumkin\Desktop\GridSandbox_v4\GridSandbox_v4\bin\AnyCPU\Debug\KinectGrid.exe.config
+\\ad\eng\users\n\f\nfrumkin\Desktop\GridSandbox_v4\GridSandbox_v4\bin\AnyCPU\Debug\KinectGrid.exe
+\\ad\eng\users\n\f\nfrumkin\Desktop\GridSandbox_v4\GridSandbox_v4\bin\AnyCPU\Debug\KinectGrid.pdb
+\\ad\eng\users\n\f\nfrumkin\Desktop\GridSandbox_v4\GridSandbox_v4\bin\AnyCPU\Debug\Microsoft.Kinect.dll
+\\ad\eng\users\n\f\nfrumkin\Desktop\GridSandbox_v4\GridSandbox_v4\bin\AnyCPU\Debug\Microsoft.Kinect.xml
+\\ad\eng\users\n\f\nfrumkin\Desktop\GridSandbox_v4\GridSandbox_v4\obj\Debug\KinectGrid.csprojAssemblyReference.cache
+\\ad\eng\users\n\f\nfrumkin\Desktop\GridSandbox_v4\GridSandbox_v4\obj\Debug\MainWindow.baml
+\\ad\eng\users\n\f\nfrumkin\Desktop\GridSandbox_v4\GridSandbox_v4\obj\Debug\MainWindow.g.cs
+\\ad\eng\users\n\f\nfrumkin\Desktop\GridSandbox_v4\GridSandbox_v4\obj\Debug\App.g.cs
+\\ad\eng\users\n\f\nfrumkin\Desktop\GridSandbox_v4\GridSandbox_v4\obj\Debug\KinectGrid_MarkupCompile.cache
+\\ad\eng\users\n\f\nfrumkin\Desktop\GridSandbox_v4\GridSandbox_v4\obj\Debug\KinectGrid.g.resources
+\\ad\eng\users\n\f\nfrumkin\Desktop\GridSandbox_v4\GridSandbox_v4\obj\Debug\KinectGrid.Properties.Resources.resources
+\\ad\eng\users\n\f\nfrumkin\Desktop\GridSandbox_v4\GridSandbox_v4\obj\Debug\KinectGrid.csproj.GenerateResource.cache
+\\ad\eng\users\n\f\nfrumkin\Desktop\GridSandbox_v4\GridSandbox_v4\obj\Debug\KinectGrid.csproj.CoreCompileInputs.cache
+\\ad\eng\users\n\f\nfrumkin\Desktop\GridSandbox_v4\GridSandbox_v4\obj\Debug\KinectGrid.csproj.CopyComplete
+\\ad\eng\users\n\f\nfrumkin\Desktop\GridSandbox_v4\GridSandbox_v4\obj\Debug\KinectGrid.exe
+\\ad\eng\users\n\f\nfrumkin\Desktop\GridSandbox_v4\GridSandbox_v4\obj\Debug\KinectGrid.pdb
